@@ -40,3 +40,4 @@ class PostController extends Controller
         return response()->json($post);
     }
 }
+// php artisan make:controller PostController --model=Post --api
